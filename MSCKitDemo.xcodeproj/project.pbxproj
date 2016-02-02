@@ -15,6 +15,7 @@
 		07DD15621BE1F6A4006158E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DD15601BE1F6A4006158E6 /* LaunchScreen.storyboard */; };
 		07DD156D1BE1F6A4006158E6 /* MSCKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD156C1BE1F6A4006158E6 /* MSCKitDemoTests.m */; };
 		07DD15781BE1F6A4006158E6 /* MSCKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD15771BE1F6A4006158E6 /* MSCKitDemoUITests.m */; };
+		07DD15881BE1FA98006158E6 /* MSCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD15871BE1FA98006158E6 /* MSCDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		07DD15731BE1F6A4006158E6 /* MSCKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSCKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DD15771BE1F6A4006158E6 /* MSCKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCKitDemoUITests.m; sourceTree = "<group>"; };
 		07DD15791BE1F6A4006158E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DD15861BE1FA98006158E6 /* MSCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCDevice.h; sourceTree = "<group>"; };
+		07DD15871BE1FA98006158E6 /* MSCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		07DD15851BE1F6BD006158E6 /* MSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				07DD15861BE1FA98006158E6 /* MSCDevice.h */,
+				07DD15871BE1FA98006158E6 /* MSCDevice.m */,
 			);
 			path = MSCKit;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 			files = (
 				07DD155A1BE1F6A4006158E6 /* ViewController.m in Sources */,
 				07DD15571BE1F6A4006158E6 /* AppDelegate.m in Sources */,
+				07DD15881BE1FA98006158E6 /* MSCDevice.m in Sources */,
 				07DD15541BE1F6A4006158E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +512,7 @@
 				07DD157E1BE1F6A4006158E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07DD157F1BE1F6A4006158E6 /* Build configuration list for PBXNativeTarget "MSCKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +521,7 @@
 				07DD15811BE1F6A4006158E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07DD15821BE1F6A4006158E6 /* Build configuration list for PBXNativeTarget "MSCKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +530,7 @@
 				07DD15841BE1F6A4006158E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
