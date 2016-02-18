@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0726C7DC1C62EEAC00968160 /* MSCCoreUtils+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726C7DB1C62EEAC00968160 /* MSCCoreUtils+NSString.m */; };
 		07AF03A21C61BA6500CA1CDD /* MSCCoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF03A11C61BA6500CA1CDD /* MSCCoreUtils.m */; };
 		07AF03CE1C621ADE00CA1CDD /* NSArray+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF03BF1C621ADE00CA1CDD /* NSArray+MSCKit.m */; };
 		07AF03CF1C621ADE00CA1CDD /* NSData+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF03C11C621ADE00CA1CDD /* NSData+MSCKit.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0726C7DA1C62EEAC00968160 /* MSCCoreUtils+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSCCoreUtils+NSString.h"; sourceTree = "<group>"; };
+		0726C7DB1C62EEAC00968160 /* MSCCoreUtils+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSCCoreUtils+NSString.m"; sourceTree = "<group>"; };
 		07AF03A01C61BA6500CA1CDD /* MSCCoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCCoreUtils.h; sourceTree = "<group>"; };
 		07AF03A11C61BA6500CA1CDD /* MSCCoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCCoreUtils.m; sourceTree = "<group>"; };
 		07AF03BE1C621ADE00CA1CDD /* NSArray+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSCKit.h"; sourceTree = "<group>"; };
@@ -108,11 +111,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0726C7DD1C63454900968160 /* UIKit+MSCKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIKit+MSCKit";
+			sourceTree = "<group>";
+		};
 		07AF039F1C61B94400CA1CDD /* MSCKitCore */ = {
 			isa = PBXGroup;
 			children = (
 				07AF03A01C61BA6500CA1CDD /* MSCCoreUtils.h */,
 				07AF03A11C61BA6500CA1CDD /* MSCCoreUtils.m */,
+				0726C7DA1C62EEAC00968160 /* MSCCoreUtils+NSString.h */,
+				0726C7DB1C62EEAC00968160 /* MSCCoreUtils+NSString.m */,
 			);
 			path = MSCKitCore;
 			sourceTree = "<group>";
@@ -207,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				07AF03BD1C621A5900CA1CDD /* Foundation+MSCKit */,
+				0726C7DD1C63454900968160 /* UIKit+MSCKit */,
 				07AF039F1C61B94400CA1CDD /* MSCKitCore */,
 				07DD15861BE1FA98006158E6 /* MSCDevice.h */,
 				07DD15871BE1FA98006158E6 /* MSCDevice.m */,
@@ -353,6 +366,7 @@
 				07DD15881BE1FA98006158E6 /* MSCDevice.m in Sources */,
 				07AF03D51C621ADE00CA1CDD /* NSString+MSCKit.m in Sources */,
 				07DD15541BE1F6A4006158E6 /* main.m in Sources */,
+				0726C7DC1C62EEAC00968160 /* MSCCoreUtils+NSString.m in Sources */,
 				07AF03D41C621ADE00CA1CDD /* NSNumber+MSCKit.m in Sources */,
 				07AF03A21C61BA6500CA1CDD /* MSCCoreUtils.m in Sources */,
 				07AF03CE1C621ADE00CA1CDD /* NSArray+MSCKit.m in Sources */,

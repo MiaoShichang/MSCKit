@@ -14,7 +14,7 @@
 #pragma mark -------- 时间间隔
 
 //【获取从1970开始之间的间隔时间，单位为毫秒】
-- (double)timeIntervalSince1970InMilliSecond
+- (double)ex_timeIntervalSince1970InMilliSecond
 {
     double ret = [self timeIntervalSince1970] * 1000;
     return ret;
@@ -36,8 +36,8 @@
 }
 
 #pragma mark -------- 调整
-//【调整时间】
-- (NSDate *)dateByAddingDays: (NSInteger) dDays
+//【调整日期】
+- (NSDate *)ex_dateByAddingDays: (NSInteger) dDays
 {
     NSTimeInterval aTimeInterval = [self timeIntervalSinceReferenceDate] + MSCKIT_DATE_DAY * dDays;
     NSDate *newDate = [NSDate dateWithTimeIntervalSinceReferenceDate:aTimeInterval];
@@ -46,18 +46,19 @@
 
 //【明天日期】
 + (NSDate *_Nonnull)ex_tomorrowDate
-{
-    return [[NSDate date] dateByAddingDays:1];
+{   
+    return [[NSDate date] ex_dateByAddingDays:1];
 }
 
 //【昨天日期】
 + (NSDate *_Nonnull)ex_yesterdayDate
 {
-    return [[NSDate date] dateByAddingDays:-1];
+    return [[NSDate date] ex_dateByAddingDays:-1];
 }
 
 
 #pragma mark -------- 判断
+
 //【是否是同一天】
 - (BOOL)ex_isSameDay:(NSDate * _Nonnull)anotherDate
 {
@@ -93,7 +94,7 @@
 
 #pragma mark -------- 日期中各组成部分
 
-- (NSDateComponents *)components
+- (NSDateComponents *)p_dateComponents
 {
     NSCalendar* calendar = [NSCalendar currentCalendar];
     NSDateComponents *components = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay |
@@ -104,47 +105,47 @@
 
 - (NSInteger)ex_year
 {
-    return [self components].year;
+    return [self p_dateComponents].year;
 }
 
 - (NSInteger)ex_month
 {
-    return [self components].month;
+    return [self p_dateComponents].month;
 }
 
 - (NSInteger)ex_day
 {
-    return [self components].day;
+    return [self p_dateComponents].day;
 }
 
 - (NSInteger)ex_hour
 {
-    return [self components].hour;
+    return [self p_dateComponents].hour;
 }
 
 - (NSInteger)ex_minute
 {
-    return [self components].minute;
+    return [self p_dateComponents].minute;
 }
 
 - (NSInteger)ex_second
 {
-    return [self components].second;
+    return [self p_dateComponents].second;
 }
 
 - (NSInteger)ex_weekOfYear
 {
-    return [self components].weekOfYear;
+    return [self p_dateComponents].weekOfYear;
 }
 
 - (NSInteger)ex_weekday
 {
-    return [self components].weekday;
+    return [self p_dateComponents].weekday;
 }
 
 - (NSInteger)ex_weekOfMonth
 {
-    return [self components].weekOfMonth;
+    return [self p_dateComponents].weekOfMonth;
 }
 
 #pragma mark -------- 日期时间描述

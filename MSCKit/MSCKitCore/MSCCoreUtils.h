@@ -10,7 +10,6 @@
 
 @interface MSCCoreUtils : NSObject
 
-/**获取拼音的首字母*/
-+ (char)firstLetter:(NSString *)string;
+
 
 @end

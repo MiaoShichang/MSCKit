@@ -11,6 +11,7 @@
 @interface NSData (MSCKit)
 
 #pragma mark -------- to NSString
+
 /**转换成UTF8编码字符串*/
 - (NSString *)ex_convertToUTF8String;
 
@@ -18,6 +19,12 @@
 - (NSString *)ex_convertToASCIIString;
 
 
-#pragma mark --------
+#pragma mark -------- 判断图片类型
+
+/**判断是否是JPEG格式的图片*/
+- (BOOL)ex_isJPEG;
+
+/**判断是否是PNG格式的图片*/
+- (BOOL)ex_isPNG;
 
 @end

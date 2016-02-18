@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MSCDevice.h"
 #import "NSArray+MSCKit.h"
+#import "NSString+MSCKit.h"
 
 @interface ViewController ()
 
@@ -28,8 +29,22 @@
 //    NSLog(@"model name -- %@", [MSCDevice modelName]);
     
 
-    NSLog(@"NSIntegerMin -- %ld", NSIntegerMin);
+//    NSLog(@"NSIntegerMin -- %ld", NSIntegerMin);
+
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 200, 100, 100);
+    btn.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:btn];
     
+    NSString *str = @"苗";
+    NSLog(@"苗first -- %c", [str ex_firstLetter]);
+    str = @"士";
+    NSLog(@"士first -- %c", [str ex_firstLetter]);
+    str = @"xinhai";
+    NSLog(@"昌first -- %c", [str ex_firstLetter]);
+    NSLog(@"UUID--%@", [NSString ex_generateUUID]);
+    NSLog(@"UUID string--%@", [NSString ex_generateUUIDString]);
+    str = @"";
     
 }
 

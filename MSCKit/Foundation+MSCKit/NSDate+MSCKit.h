@@ -27,13 +27,22 @@
 @property (nonatomic, readonly)NSInteger ex_weekday;  //【一周中的第几天】
 @property (nonatomic, readonly)NSInteger ex_weekOfMonth;
 @property (nonatomic, readonly)NSInteger ex_weekOfYear;
-@property (nonatomic, readonly)double timeIntervalSince1970InMilliSecond; //【获取从1970开始之间的间隔时间，单位为毫秒】
+@property (nonatomic, readonly)double    ex_timeIntervalSince1970InMilliSecond; //【获取从1970开始之间的间隔时间，单位为毫秒】
 
 
 #pragma mark -------- 调整日期
 
-/**调整日期：从1970开始的NSDate+时间间隔，参数单位为毫秒*/
-+ (NSDate *_Nonnull)ex_dateWithTimeIntervalInMilliSecondSince1970:(double)timeIntervalInMilliSecond;
+///**调整日期：从1970开始的NSDate+时间间隔，参数单位为毫秒*/
+//+ (NSDate *_Nonnull)ex_dateWithTimeIntervalInMilliSecondSince1970:(double)timeIntervalInMilliSecond;
+
+
+//【调整日期】
+/**
+ *@brief 调整日期
+ *
+ *@param dDays  调整日期参数，为正数时向后调整；为负数时向前调整
+ */
+- (NSDate *_Nonnull)ex_dateByAddingDays: (NSInteger) dDays;
 
 /**明天日期*/
 + (NSDate *_Nonnull)ex_tomorrowDate;

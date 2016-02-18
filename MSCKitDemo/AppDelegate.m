@@ -17,7 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UILongPressGestureRecognizer *longGes = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(longGes:)];
+    [self.window addGestureRecognizer:longGes];
+    
     return YES;
+}
+
+- (void)longGes:(UILongPressGestureRecognizer *)longGes
+{
+    NSLog(@"long Ges -- class:%@", [longGes.view class]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
