@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "MSCDevice.h"
-#import "NSArray+MSCKit.h"
-#import "NSString+MSCKit.h"
+
+#import "UIImage+MSCKit.h"
+#import "UIViewDrawRect.h"
+#import "MSCApp.h"
 
 @interface ViewController ()
 
@@ -21,32 +22,29 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //
-//    NSLog(@"name -- %@", [MSCDevice name]);
-//    NSLog(@"wifi name -- %@", [MSCDevice currentWiFiName]);
-//    NSLog(@"carrier -- %@", [MSCDevice carrierName]);
-//    NSLog(@"model -- %@", [MSCDevice model]);
-//    NSLog(@"model type -- %@", [MSCDevice modelType]);
-//    NSLog(@"model name -- %@", [MSCDevice modelName]);
+//    UIImage *image = [UIImage imageNamed:@"image_v.png"];
+//    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    imageView.image = image;
+//    [self.view addSubview:imageView];
     
-
-//    NSLog(@"NSIntegerMin -- %ld", NSIntegerMin);
-
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(100, 200, 100, 100);
-    btn.backgroundColor = [UIColor orangeColor];
-    [self.view addSubview:btn];
     
-    NSString *str = @"苗";
-    NSLog(@"苗first -- %c", [str ex_firstLetter]);
-    str = @"士";
-    NSLog(@"士first -- %c", [str ex_firstLetter]);
-    str = @"xinhai";
-    NSLog(@"昌first -- %c", [str ex_firstLetter]);
-    NSLog(@"UUID--%@", [NSString ex_generateUUID]);
-    NSLog(@"UUID string--%@", [NSString ex_generateUUIDString]);
-    str = @"";
+    UIViewDrawRect *drawView = [[UIViewDrawRect alloc]initWithFrame:CGRectMake(100, 100, 200, 200)];
+    drawView.text = @"hello world!";
+    drawView.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:drawView];
+    
+    NSLog(@"%@ --- %@ --- %@",[MSCApp appName], [MSCApp appVersion], [MSCApp appBuildVersion]);
+    
+    [MSCApp onFirstStartAPPForCurrentVersion:^(BOOL isFirst) {
+        
+    }];
+    
+    MSCB *b = [[MSCB alloc]init];
+    b = nil;
+    
     
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

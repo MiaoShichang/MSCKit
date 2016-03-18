@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage_MSCKit : UIImage
+@interface UIImage (MSCKit)
+
+
++ (UIImage *)ex_imageWithBounds:(CGSize)size color:(UIColor *)color;
++ (UIImage *)ex_imageWithColor:(UIColor *)color;
 
 @end

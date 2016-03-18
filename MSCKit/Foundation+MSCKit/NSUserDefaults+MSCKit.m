@@ -8,6 +8,19 @@
 
 #import "NSUserDefaults+MSCKit.h"
 
-@implementation NSUserDefaults_MSCKit
+@implementation NSUserDefaults (MSCKit)
+
++ (BOOL)ex_setUserValue:(id)value forKey:(id)key
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setValue:value forKey:key];
+    return [userDefaults synchronize];
+}
+
++ (id)ex_valueForKey:(NSString *)key
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    return [userDefaults valueForKey:key];
+}
 
 @end

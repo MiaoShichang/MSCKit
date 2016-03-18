@@ -7,7 +7,14 @@
 //
 
 #import "MSCSystem.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @implementation MSCSystem
+
+
++ (void)vibrateDevice
+{
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
 
 @end

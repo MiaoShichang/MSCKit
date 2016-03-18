@@ -10,4 +10,9 @@
 
 @interface MSCSystem : NSObject
 
+/**
+ * @brief 震动设备(手机，iPad等)
+ */
++ (void)vibrateDevice;
+
 @end

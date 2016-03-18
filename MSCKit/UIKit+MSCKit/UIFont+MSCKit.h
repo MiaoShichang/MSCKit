@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIFont_MSCKit : UIFont
+@interface UIFont (MSCKit)
 
 @end

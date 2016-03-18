@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSUserDefaults_MSCKit : NSUserDefaults
+@interface NSUserDefaults (MSCKit)
+
++ (BOOL)ex_setUserValue:(id)value forKey:(id)key;
+
++ (id)ex_valueForKey:(NSString *)key;
 
 @end

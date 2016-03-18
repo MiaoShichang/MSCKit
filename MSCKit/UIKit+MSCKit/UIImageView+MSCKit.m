@@ -8,14 +8,15 @@
 
 #import "UIImageView+MSCKit.h"
 
-@implementation UIImageView_MSCKit
+@implementation UIImageView (MSCKit)
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
++ (UIImageView *)ex_imageViewWithImage:(UIImage *)image frame:(CGRect)aFrame
+{
+    UIImageView *imageView = [[UIImageView alloc] init];
+    [imageView setFrame:aFrame];
+    [imageView setImage:image];
+    
+    return imageView;
 }
-*/
 
 @end

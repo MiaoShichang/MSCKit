@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewDrawRect : UIView
+@interface UIViewDrawRect : UILabel
+
+@end
+
+
+@interface MSCA : NSObject
+
+@end
+
+@interface MSCB : MSCA
 
 @end

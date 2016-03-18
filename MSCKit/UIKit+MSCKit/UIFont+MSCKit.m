@@ -8,6 +8,6 @@
 
 #import "UIFont+MSCKit.h"
 
-@implementation UIFont_MSCKit
+@implementation UIFont (MSCKit)
 
 @end

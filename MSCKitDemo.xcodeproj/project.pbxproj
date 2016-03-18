@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0726C7DC1C62EEAC00968160 /* MSCCoreUtils+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726C7DB1C62EEAC00968160 /* MSCCoreUtils+NSString.m */; };
+		074F925E1C755EAE0017529B /* UIView+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 074F925D1C755EAE0017529B /* UIView+MSCKit.m */; };
+		0754A9A21C7BF716006FCB08 /* UIButton+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754A9A11C7BF716006FCB08 /* UIButton+MSCKit.m */; };
+		0754A9A51C7C155D006FCB08 /* UIImageView+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754A9A41C7C155D006FCB08 /* UIImageView+MSCKit.m */; };
+		0754A9A91C7C1FD5006FCB08 /* MSCApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754A9A81C7C1FD5006FCB08 /* MSCApp.m */; };
+		0754A9AC1C7C2771006FCB08 /* MSCSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754A9AB1C7C2771006FCB08 /* MSCSystem.m */; };
+		0754A9AF1C7C6BCE006FCB08 /* NSObject+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754A9AE1C7C6BCE006FCB08 /* NSObject+MSCKit.m */; };
+		0754A9B21C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0754A9B11C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.m */; };
+		079A955F1C7CA45600E6B272 /* NSFileManager+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A955E1C7CA45600E6B272 /* NSFileManager+MSCKit.m */; };
+		079A95621C7CB71500E6B272 /* NSTimer+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A95611C7CB71500E6B272 /* NSTimer+MSCKit.m */; };
 		07AF03A21C61BA6500CA1CDD /* MSCCoreUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF03A11C61BA6500CA1CDD /* MSCCoreUtils.m */; };
 		07AF03CE1C621ADE00CA1CDD /* NSArray+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF03BF1C621ADE00CA1CDD /* NSArray+MSCKit.m */; };
 		07AF03CF1C621ADE00CA1CDD /* NSData+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF03C11C621ADE00CA1CDD /* NSData+MSCKit.m */; };
@@ -26,6 +35,11 @@
 		07DD156D1BE1F6A4006158E6 /* MSCKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD156C1BE1F6A4006158E6 /* MSCKitDemoTests.m */; };
 		07DD15781BE1F6A4006158E6 /* MSCKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD15771BE1F6A4006158E6 /* MSCKitDemoUITests.m */; };
 		07DD15881BE1FA98006158E6 /* MSCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD15871BE1FA98006158E6 /* MSCDevice.m */; };
+		07FE64421C75724100696874 /* UIColor+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64411C75724100696874 /* UIColor+MSCKit.m */; };
+		07FE64451C759D5C00696874 /* UIFont+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64441C759D5C00696874 /* UIFont+MSCKit.m */; };
+		07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64471C75A76500696874 /* UIImage+MSCKit.m */; };
+		07FE644A1C75A9D100696874 /* image_v.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FE64491C75A9D100696874 /* image_v.png */; };
+		07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,24 @@
 /* Begin PBXFileReference section */
 		0726C7DA1C62EEAC00968160 /* MSCCoreUtils+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSCCoreUtils+NSString.h"; sourceTree = "<group>"; };
 		0726C7DB1C62EEAC00968160 /* MSCCoreUtils+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSCCoreUtils+NSString.m"; sourceTree = "<group>"; };
+		074F925C1C755EAE0017529B /* UIView+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSCKit.h"; sourceTree = "<group>"; };
+		074F925D1C755EAE0017529B /* UIView+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSCKit.m"; sourceTree = "<group>"; };
+		0754A9A01C7BF716006FCB08 /* UIButton+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MSCKit.h"; sourceTree = "<group>"; };
+		0754A9A11C7BF716006FCB08 /* UIButton+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MSCKit.m"; sourceTree = "<group>"; };
+		0754A9A31C7C155D006FCB08 /* UIImageView+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MSCKit.h"; sourceTree = "<group>"; };
+		0754A9A41C7C155D006FCB08 /* UIImageView+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MSCKit.m"; sourceTree = "<group>"; };
+		0754A9A71C7C1FD5006FCB08 /* MSCApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCApp.h; sourceTree = "<group>"; };
+		0754A9A81C7C1FD5006FCB08 /* MSCApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCApp.m; sourceTree = "<group>"; };
+		0754A9AA1C7C2771006FCB08 /* MSCSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCSystem.h; sourceTree = "<group>"; };
+		0754A9AB1C7C2771006FCB08 /* MSCSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCSystem.m; sourceTree = "<group>"; };
+		0754A9AD1C7C6BCE006FCB08 /* NSObject+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MSCKit.h"; sourceTree = "<group>"; };
+		0754A9AE1C7C6BCE006FCB08 /* NSObject+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MSCKit.m"; sourceTree = "<group>"; };
+		0754A9B01C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+MSCKit.h"; sourceTree = "<group>"; };
+		0754A9B11C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+MSCKit.m"; sourceTree = "<group>"; };
+		079A955D1C7CA45600E6B272 /* NSFileManager+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+MSCKit.h"; sourceTree = "<group>"; };
+		079A955E1C7CA45600E6B272 /* NSFileManager+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+MSCKit.m"; sourceTree = "<group>"; };
+		079A95601C7CB71500E6B272 /* NSTimer+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+MSCKit.h"; sourceTree = "<group>"; };
+		079A95611C7CB71500E6B272 /* NSTimer+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+MSCKit.m"; sourceTree = "<group>"; };
 		07AF03A01C61BA6500CA1CDD /* MSCCoreUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCCoreUtils.h; sourceTree = "<group>"; };
 		07AF03A11C61BA6500CA1CDD /* MSCCoreUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCCoreUtils.m; sourceTree = "<group>"; };
 		07AF03BE1C621ADE00CA1CDD /* NSArray+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSCKit.h"; sourceTree = "<group>"; };
@@ -84,6 +116,15 @@
 		07DD15791BE1F6A4006158E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07DD15861BE1FA98006158E6 /* MSCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCDevice.h; sourceTree = "<group>"; };
 		07DD15871BE1FA98006158E6 /* MSCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCDevice.m; sourceTree = "<group>"; };
+		07FE64401C75724100696874 /* UIColor+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MSCKit.h"; sourceTree = "<group>"; };
+		07FE64411C75724100696874 /* UIColor+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MSCKit.m"; sourceTree = "<group>"; };
+		07FE64431C759D5C00696874 /* UIFont+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MSCKit.h"; sourceTree = "<group>"; };
+		07FE64441C759D5C00696874 /* UIFont+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MSCKit.m"; sourceTree = "<group>"; };
+		07FE64461C75A76500696874 /* UIImage+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSCKit.h"; sourceTree = "<group>"; };
+		07FE64471C75A76500696874 /* UIImage+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSCKit.m"; sourceTree = "<group>"; };
+		07FE64491C75A9D100696874 /* image_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_v.png; sourceTree = "<group>"; };
+		07FE644B1C75C3AD00696874 /* UIViewDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDrawRect.h; sourceTree = "<group>"; };
+		07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewDrawRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +155,31 @@
 		0726C7DD1C63454900968160 /* UIKit+MSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				074F925C1C755EAE0017529B /* UIView+MSCKit.h */,
+				074F925D1C755EAE0017529B /* UIView+MSCKit.m */,
+				07FE64401C75724100696874 /* UIColor+MSCKit.h */,
+				07FE64411C75724100696874 /* UIColor+MSCKit.m */,
+				07FE64431C759D5C00696874 /* UIFont+MSCKit.h */,
+				07FE64441C759D5C00696874 /* UIFont+MSCKit.m */,
+				07FE64461C75A76500696874 /* UIImage+MSCKit.h */,
+				07FE64471C75A76500696874 /* UIImage+MSCKit.m */,
+				0754A9A01C7BF716006FCB08 /* UIButton+MSCKit.h */,
+				0754A9A11C7BF716006FCB08 /* UIButton+MSCKit.m */,
+				0754A9A31C7C155D006FCB08 /* UIImageView+MSCKit.h */,
+				0754A9A41C7C155D006FCB08 /* UIImageView+MSCKit.m */,
 			);
 			path = "UIKit+MSCKit";
+			sourceTree = "<group>";
+		};
+		0754A9A61C7C1FBB006FCB08 /* MSCKit */ = {
+			isa = PBXGroup;
+			children = (
+				0754A9A71C7C1FD5006FCB08 /* MSCApp.h */,
+				0754A9A81C7C1FD5006FCB08 /* MSCApp.m */,
+				0754A9AA1C7C2771006FCB08 /* MSCSystem.h */,
+				0754A9AB1C7C2771006FCB08 /* MSCSystem.m */,
+			);
+			path = MSCKit;
 			sourceTree = "<group>";
 		};
 		07AF039F1C61B94400CA1CDD /* MSCKitCore */ = {
@@ -148,6 +212,14 @@
 				07AF03CB1C621ADE00CA1CDD /* NSNumber+MSCKit.m */,
 				07AF03CC1C621ADE00CA1CDD /* NSString+MSCKit.h */,
 				07AF03CD1C621ADE00CA1CDD /* NSString+MSCKit.m */,
+				0754A9AD1C7C6BCE006FCB08 /* NSObject+MSCKit.h */,
+				0754A9AE1C7C6BCE006FCB08 /* NSObject+MSCKit.m */,
+				0754A9B01C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.h */,
+				0754A9B11C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.m */,
+				079A955D1C7CA45600E6B272 /* NSFileManager+MSCKit.h */,
+				079A955E1C7CA45600E6B272 /* NSFileManager+MSCKit.m */,
+				079A95601C7CB71500E6B272 /* NSTimer+MSCKit.h */,
+				079A95611C7CB71500E6B272 /* NSTimer+MSCKit.m */,
 			);
 			path = "Foundation+MSCKit";
 			sourceTree = "<group>";
@@ -176,10 +248,13 @@
 		07DD15511BE1F6A4006158E6 /* MSCKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				07FE64491C75A9D100696874 /* image_v.png */,
 				07DD15551BE1F6A4006158E6 /* AppDelegate.h */,
 				07DD15561BE1F6A4006158E6 /* AppDelegate.m */,
 				07DD15581BE1F6A4006158E6 /* ViewController.h */,
 				07DD15591BE1F6A4006158E6 /* ViewController.m */,
+				07FE644B1C75C3AD00696874 /* UIViewDrawRect.h */,
+				07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */,
 				07DD155B1BE1F6A4006158E6 /* Main.storyboard */,
 				07DD155E1BE1F6A4006158E6 /* Assets.xcassets */,
 				07DD15601BE1F6A4006158E6 /* LaunchScreen.storyboard */,
@@ -218,6 +293,7 @@
 		07DD15851BE1F6BD006158E6 /* MSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				0754A9A61C7C1FBB006FCB08 /* MSCKit */,
 				07AF03BD1C621A5900CA1CDD /* Foundation+MSCKit */,
 				0726C7DD1C63454900968160 /* UIKit+MSCKit */,
 				07AF039F1C61B94400CA1CDD /* MSCKitCore */,
@@ -331,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07DD15621BE1F6A4006158E6 /* LaunchScreen.storyboard in Resources */,
+				07FE644A1C75A9D100696874 /* image_v.png in Resources */,
 				07DD155F1BE1F6A4006158E6 /* Assets.xcassets in Resources */,
 				07DD155D1BE1F6A4006158E6 /* Main.storyboard in Resources */,
 			);
@@ -357,19 +434,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0754A9A21C7BF716006FCB08 /* UIButton+MSCKit.m in Sources */,
 				07AF03CF1C621ADE00CA1CDD /* NSData+MSCKit.m in Sources */,
+				0754A9AF1C7C6BCE006FCB08 /* NSObject+MSCKit.m in Sources */,
+				079A95621C7CB71500E6B272 /* NSTimer+MSCKit.m in Sources */,
 				07DD155A1BE1F6A4006158E6 /* ViewController.m in Sources */,
 				07DD15571BE1F6A4006158E6 /* AppDelegate.m in Sources */,
+				0754A9AC1C7C2771006FCB08 /* MSCSystem.m in Sources */,
 				07AF03D11C621ADE00CA1CDD /* NSDictionary+MSCKit.m in Sources */,
+				074F925E1C755EAE0017529B /* UIView+MSCKit.m in Sources */,
 				07AF03D31C621ADE00CA1CDD /* NSMutableDictionary+MSCKit.m in Sources */,
 				07AF03D21C621ADE00CA1CDD /* NSMutableArray+MSCKit.m in Sources */,
 				07DD15881BE1FA98006158E6 /* MSCDevice.m in Sources */,
+				0754A9B21C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.m in Sources */,
+				07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */,
 				07AF03D51C621ADE00CA1CDD /* NSString+MSCKit.m in Sources */,
+				07FE64451C759D5C00696874 /* UIFont+MSCKit.m in Sources */,
 				07DD15541BE1F6A4006158E6 /* main.m in Sources */,
+				0754A9A91C7C1FD5006FCB08 /* MSCApp.m in Sources */,
+				079A955F1C7CA45600E6B272 /* NSFileManager+MSCKit.m in Sources */,
 				0726C7DC1C62EEAC00968160 /* MSCCoreUtils+NSString.m in Sources */,
+				0754A9A51C7C155D006FCB08 /* UIImageView+MSCKit.m in Sources */,
+				07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */,
 				07AF03D41C621ADE00CA1CDD /* NSNumber+MSCKit.m in Sources */,
 				07AF03A21C61BA6500CA1CDD /* MSCCoreUtils.m in Sources */,
 				07AF03CE1C621ADE00CA1CDD /* NSArray+MSCKit.m in Sources */,
+				07FE64421C75724100696874 /* UIColor+MSCKit.m in Sources */,
 				07AF03D01C621ADE00CA1CDD /* NSDate+MSCKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

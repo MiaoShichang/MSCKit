@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImageView_MSCKit : UIImageView
+/**
+ * @brief 添加一些实用的方法
+ */
+
+@interface UIImageView (MSCKit)
+
+/**
+ * @brief 根据给定的参数创建 UIImageView 对象
+ * 
+ * @param image     UIImageView的image
+ * @param aFrame    UIImageView的frame
+ * @return          返回一个UIImageView对象
+ */
++ (UIImageView *)ex_imageViewWithImage:(UIImage *)image frame:(CGRect)aFrame;
 
 @end
