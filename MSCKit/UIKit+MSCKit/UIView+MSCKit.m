@@ -104,6 +104,7 @@
 - (void)ex_setCornerRadius:(CGFloat)radius
 {
     self.layer.cornerRadius = radius;
+    self.clipsToBounds = YES;
     self.layer.masksToBounds = YES;
 }
 
