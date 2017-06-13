@@ -14,7 +14,9 @@
 
 /**获取随机数*/
 + (CGFloat)ex_randomFloatBetweenMin:(CGFloat)minValue andMax:(CGFloat)maxValue;
+
 + (NSInteger)ex_randomIntBetweenMin:(NSInteger)minValue andMax:(NSInteger)maxValue;
+
 + (CGFloat)ex_randomFloat;
 
 @end

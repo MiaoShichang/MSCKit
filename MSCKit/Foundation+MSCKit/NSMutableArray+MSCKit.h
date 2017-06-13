@@ -10,4 +10,19 @@
 
 @interface NSMutableArray (MSCKit)
 
+/**
+ 添加对象
+ */
+- (void)ex_addObject:(id)anObject;
+
+/**
+ 插入对象
+ */
+- (void)ex_insertObject:(id)anObject atIndex:(NSUInteger)index;
+
+/**
+ 移除对象
+ */
+- (void)ex_removeObjectAtIndex:(NSUInteger)index;
+
 @end

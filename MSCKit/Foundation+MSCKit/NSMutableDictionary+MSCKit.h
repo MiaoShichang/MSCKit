@@ -10,4 +10,6 @@
 
 @interface NSMutableDictionary (MSCKit)
 
+- (void)ex_setObject:(id)anObject forKey:(id<NSCopying>)aKey;
+
 @end

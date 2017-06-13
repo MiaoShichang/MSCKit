@@ -55,7 +55,7 @@
  *  仅支持下面的字符串类型：
  *  - #RRGGBB
  *
- * @param hexString 十六进制字符串
+ * @param hexString 以#开始的十六进制字符串
  * @param alpha alpha值
  * @return 返回UIColor对象
  */

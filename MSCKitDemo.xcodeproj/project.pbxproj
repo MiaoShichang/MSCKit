@@ -34,12 +34,13 @@
 		07DD15621BE1F6A4006158E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DD15601BE1F6A4006158E6 /* LaunchScreen.storyboard */; };
 		07DD156D1BE1F6A4006158E6 /* MSCKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD156C1BE1F6A4006158E6 /* MSCKitDemoTests.m */; };
 		07DD15781BE1F6A4006158E6 /* MSCKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD15771BE1F6A4006158E6 /* MSCKitDemoUITests.m */; };
-		07DD15881BE1FA98006158E6 /* MSCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DD15871BE1FA98006158E6 /* MSCDevice.m */; };
 		07FE64421C75724100696874 /* UIColor+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64411C75724100696874 /* UIColor+MSCKit.m */; };
 		07FE64451C759D5C00696874 /* UIFont+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64441C759D5C00696874 /* UIFont+MSCKit.m */; };
 		07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64471C75A76500696874 /* UIImage+MSCKit.m */; };
 		07FE644A1C75A9D100696874 /* image_v.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FE64491C75A9D100696874 /* image_v.png */; };
 		07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */; };
+		7A79403F1EEFB5F10051839B /* MSCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A79403E1EEFB5F10051839B /* MSCDevice.m */; };
+		7A7940431EEFB9FF0051839B /* MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7940421EEFB9FF0051839B /* MSCKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,8 +115,6 @@
 		07DD15731BE1F6A4006158E6 /* MSCKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSCKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DD15771BE1F6A4006158E6 /* MSCKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCKitDemoUITests.m; sourceTree = "<group>"; };
 		07DD15791BE1F6A4006158E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07DD15861BE1FA98006158E6 /* MSCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCDevice.h; sourceTree = "<group>"; };
-		07DD15871BE1FA98006158E6 /* MSCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCDevice.m; sourceTree = "<group>"; };
 		07FE64401C75724100696874 /* UIColor+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MSCKit.h"; sourceTree = "<group>"; };
 		07FE64411C75724100696874 /* UIColor+MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MSCKit.m"; sourceTree = "<group>"; };
 		07FE64431C759D5C00696874 /* UIFont+MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MSCKit.h"; sourceTree = "<group>"; };
@@ -125,6 +124,10 @@
 		07FE64491C75A9D100696874 /* image_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_v.png; sourceTree = "<group>"; };
 		07FE644B1C75C3AD00696874 /* UIViewDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDrawRect.h; sourceTree = "<group>"; };
 		07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewDrawRect.m; sourceTree = "<group>"; };
+		7A79403D1EEFB5F10051839B /* MSCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCDevice.h; sourceTree = "<group>"; };
+		7A79403E1EEFB5F10051839B /* MSCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCDevice.m; sourceTree = "<group>"; };
+		7A7940411EEFB9FF0051839B /* MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCKit.h; sourceTree = "<group>"; };
+		7A7940421EEFB9FF0051839B /* MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 		0754A9A61C7C1FBB006FCB08 /* MSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7A79403D1EEFB5F10051839B /* MSCDevice.h */,
+				7A79403E1EEFB5F10051839B /* MSCDevice.m */,
 				0754A9A71C7C1FD5006FCB08 /* MSCApp.h */,
 				0754A9A81C7C1FD5006FCB08 /* MSCApp.m */,
 				0754A9AA1C7C2771006FCB08 /* MSCSystem.h */,
@@ -293,12 +298,12 @@
 		07DD15851BE1F6BD006158E6 /* MSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7A7940411EEFB9FF0051839B /* MSCKit.h */,
+				7A7940421EEFB9FF0051839B /* MSCKit.m */,
 				0754A9A61C7C1FBB006FCB08 /* MSCKit */,
 				07AF03BD1C621A5900CA1CDD /* Foundation+MSCKit */,
 				0726C7DD1C63454900968160 /* UIKit+MSCKit */,
 				07AF039F1C61B94400CA1CDD /* MSCKitCore */,
-				07DD15861BE1FA98006158E6 /* MSCDevice.h */,
-				07DD15871BE1FA98006158E6 /* MSCDevice.m */,
 			);
 			path = MSCKit;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				TargetAttributes = {
 					07DD154E1BE1F6A4006158E6 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = WF6A3C787Y;
 					};
 					07DD15671BE1F6A4006158E6 = {
 						CreatedOnToolsVersion = 7.1;
@@ -438,6 +444,7 @@
 				07AF03CF1C621ADE00CA1CDD /* NSData+MSCKit.m in Sources */,
 				0754A9AF1C7C6BCE006FCB08 /* NSObject+MSCKit.m in Sources */,
 				079A95621C7CB71500E6B272 /* NSTimer+MSCKit.m in Sources */,
+				7A79403F1EEFB5F10051839B /* MSCDevice.m in Sources */,
 				07DD155A1BE1F6A4006158E6 /* ViewController.m in Sources */,
 				07DD15571BE1F6A4006158E6 /* AppDelegate.m in Sources */,
 				0754A9AC1C7C2771006FCB08 /* MSCSystem.m in Sources */,
@@ -445,7 +452,6 @@
 				074F925E1C755EAE0017529B /* UIView+MSCKit.m in Sources */,
 				07AF03D31C621ADE00CA1CDD /* NSMutableDictionary+MSCKit.m in Sources */,
 				07AF03D21C621ADE00CA1CDD /* NSMutableArray+MSCKit.m in Sources */,
-				07DD15881BE1FA98006158E6 /* MSCDevice.m in Sources */,
 				0754A9B21C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.m in Sources */,
 				07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */,
 				07AF03D51C621ADE00CA1CDD /* NSString+MSCKit.m in Sources */,
@@ -456,6 +462,7 @@
 				0726C7DC1C62EEAC00968160 /* MSCCoreUtils+NSString.m in Sources */,
 				0754A9A51C7C155D006FCB08 /* UIImageView+MSCKit.m in Sources */,
 				07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */,
+				7A7940431EEFB9FF0051839B /* MSCKit.m in Sources */,
 				07AF03D41C621ADE00CA1CDD /* NSNumber+MSCKit.m in Sources */,
 				07AF03A21C61BA6500CA1CDD /* MSCCoreUtils.m in Sources */,
 				07AF03CE1C621ADE00CA1CDD /* NSArray+MSCKit.m in Sources */,
@@ -599,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WF6A3C787Y;
 				INFOPLIST_FILE = MSCKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -611,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WF6A3C787Y;
 				INFOPLIST_FILE = MSCKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -12,6 +12,7 @@
 
 
 + (UIImage *)ex_imageWithBounds:(CGSize)size color:(UIColor *)color;
+
 + (UIImage *)ex_imageWithColor:(UIColor *)color;
 
 @end
