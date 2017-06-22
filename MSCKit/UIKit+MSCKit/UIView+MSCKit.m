@@ -96,6 +96,28 @@
     self.frame = frame;
 }
 
+- (CGFloat)ex_centerX
+{
+    return self.center.x;
+}
+
+- (void)setEx_centerX:(CGFloat)centerX
+{
+    CGPoint center = CGPointMake(centerX, self.center.y);
+    self.center = center;
+}
+
+- (CGFloat)ex_centerY
+{
+    return self.center.y;
+}
+
+- (void)setEx_centerY:(CGFloat)centerY
+{
+    CGPoint center = CGPointMake(self.center.x, centerY);
+    self.center = center;
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

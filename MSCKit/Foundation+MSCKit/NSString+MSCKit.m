@@ -124,6 +124,33 @@
     return [self dataUsingEncoding:NSASCIIStringEncoding];
 }
 
+//【将字符串转换成NSDictionary】
+- (NSDictionary *)ex_convertToDictionary
+{
+    if (self.length == 0)
+    {
+        return @{};
+    }
+    
+    NSData *jsonData = [self dataUsingEncoding:NSUTF8StringEncoding];
+    
+    NSError *err = nil;
+    id dic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&err];
+    
+    if(err)
+    {
+        NSLog(@"ex_convertToDictionary error：%@",err);
+        return nil;
+    }
+    
+    if ([dic isKindOfClass:[NSDictionary class]])
+    {
+        return dic;
+    }
+    
+    return nil;
+}
+
 //【Base64编码】
 - (NSString *)ex_encodeToBase64
 {
