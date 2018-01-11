@@ -11,9 +11,9 @@
 @interface NSArray (MSCKit)
 
 /**安全获取对象，判断了数组越界*/
-- (id _Nullable)ex_safeObjectAtIndex:(NSUInteger)index;
+- (id)ex_objectAtIndex:(NSUInteger)index;
 
 /**转换成JSON字符串*/
-- (NSString * _Nonnull)ex_convertToJsonString;
+- (NSString *)ex_convertToJsonString;
 
 @end

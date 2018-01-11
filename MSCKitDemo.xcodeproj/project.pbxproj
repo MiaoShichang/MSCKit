@@ -41,6 +41,8 @@
 		07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */; };
 		7A79403F1EEFB5F10051839B /* MSCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A79403E1EEFB5F10051839B /* MSCDevice.m */; };
 		7A7940431EEFB9FF0051839B /* MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7940421EEFB9FF0051839B /* MSCKit.m */; };
+		7AC20A5F2007150C00255A14 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC20A5E2007150C00255A14 /* BaseTableViewCell.m */; };
+		7AC20A622007164800255A14 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC20A612007164800255A14 /* BaseCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,10 @@
 		7A79403E1EEFB5F10051839B /* MSCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCDevice.m; sourceTree = "<group>"; };
 		7A7940411EEFB9FF0051839B /* MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCKit.h; sourceTree = "<group>"; };
 		7A7940421EEFB9FF0051839B /* MSCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCKit.m; sourceTree = "<group>"; };
+		7AC20A5D2007150C00255A14 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		7AC20A5E2007150C00255A14 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		7AC20A602007164800255A14 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		7AC20A612007164800255A14 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +304,7 @@
 		07DD15851BE1F6BD006158E6 /* MSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7AC20A5C200714C000255A14 /* BaseClass */,
 				7A7940411EEFB9FF0051839B /* MSCKit.h */,
 				7A7940421EEFB9FF0051839B /* MSCKit.m */,
 				0754A9A61C7C1FBB006FCB08 /* MSCKit */,
@@ -306,6 +313,17 @@
 				07AF039F1C61B94400CA1CDD /* MSCKitCore */,
 			);
 			path = MSCKit;
+			sourceTree = "<group>";
+		};
+		7AC20A5C200714C000255A14 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7AC20A5D2007150C00255A14 /* BaseTableViewCell.h */,
+				7AC20A5E2007150C00255A14 /* BaseTableViewCell.m */,
+				7AC20A602007164800255A14 /* BaseCollectionViewCell.h */,
+				7AC20A612007164800255A14 /* BaseCollectionViewCell.m */,
+			);
+			path = BaseClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,12 +471,14 @@
 				07AF03D31C621ADE00CA1CDD /* NSMutableDictionary+MSCKit.m in Sources */,
 				07AF03D21C621ADE00CA1CDD /* NSMutableArray+MSCKit.m in Sources */,
 				0754A9B21C7C6E6A006FCB08 /* NSUserDefaults+MSCKit.m in Sources */,
+				7AC20A622007164800255A14 /* BaseCollectionViewCell.m in Sources */,
 				07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */,
 				07AF03D51C621ADE00CA1CDD /* NSString+MSCKit.m in Sources */,
 				07FE64451C759D5C00696874 /* UIFont+MSCKit.m in Sources */,
 				07DD15541BE1F6A4006158E6 /* main.m in Sources */,
 				0754A9A91C7C1FD5006FCB08 /* MSCApp.m in Sources */,
 				079A955F1C7CA45600E6B272 /* NSFileManager+MSCKit.m in Sources */,
+				7AC20A5F2007150C00255A14 /* BaseTableViewCell.m in Sources */,
 				0726C7DC1C62EEAC00968160 /* MSCCoreUtils+NSString.m in Sources */,
 				0754A9A51C7C155D006FCB08 /* UIImageView+MSCKit.m in Sources */,
 				07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */,

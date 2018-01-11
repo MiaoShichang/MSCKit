@@ -24,6 +24,11 @@
  */
 - (NSString *)ex_trimmingWhiteSpaceAndNewlineCharacter;
 
+/**
+ *@brief 同上 ex_trimmingWhiteSpaceAndNewlineCharacter
+ */
+- (NSString *)ex_trim;
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - 验证

@@ -41,6 +41,12 @@
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
+//【去除两端空格和回车】
+- (NSString *)ex_trim
+{
+    return [self ex_trimmingWhiteSpaceAndNewlineCharacter];
+}
+
 //【是否包含Emoji表情】
 - (BOOL)ex_containsEmoji
 {

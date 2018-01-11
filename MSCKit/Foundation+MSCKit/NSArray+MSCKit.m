@@ -10,7 +10,7 @@
 
 @implementation NSArray (MSCKit)
 
-- (id _Nullable)ex_safeObjectAtIndex:(NSUInteger)index
+- (id)ex_objectAtIndex:(NSUInteger)index
 {
     if ([self count] > 0 && [self count] > index) {
         return [self objectAtIndex:index];
@@ -20,7 +20,7 @@
 }
 
 //【转换成JSON字符串】
-- (NSString * _Nonnull)ex_convertToJsonString
+- (NSString *)ex_convertToJsonString
 {
     NSString *json = nil;
     NSError *error = nil;

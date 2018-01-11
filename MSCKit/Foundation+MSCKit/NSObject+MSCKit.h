@@ -49,6 +49,25 @@
 - (void)ex_removeAssociatedObjectForKey:(void *)key;
 
 
+/////////////////////////
+/**
+ * @brief  关联一个stong对象
+ *
+ * @param value 被关联的对象
+ *
+ * @note key值是默认值，每个对象只用唯一的一个key值。
+ */
+- (void)ex_setAssociatedObject:(id)object;
+
+/**
+ * @brief  根据关联对象的key取出关联对象
+ *
+ * @param key 关联对象的key
+ *
+ * @note key值是默认值，每个对象只用唯一的一个key值。
+ */
+- (id)ex_getAssociatedObject;
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - exchange method
@@ -68,7 +87,6 @@
  * @param tarSel        其他类中的方法
  */
 + (void)ex_exchangeMethodForSel:(SEL)srcSel withSel:(SEL)tarSel ofClass:(Class)tarClass;
-
 
 /**
  * @brief 交换两个类的方法的实现

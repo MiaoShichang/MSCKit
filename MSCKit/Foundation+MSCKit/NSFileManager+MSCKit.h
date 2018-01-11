@@ -10,7 +10,6 @@
 
 @interface NSFileManager (MSCKit)
 
-
 + (NSString *)ex_documentsDirectory;
 
 + (NSString *)ex_libraryDirectory;
@@ -18,6 +17,5 @@
 + (NSString *)ex_cachesDirectory;
 
 + (NSString *)ex_temporaryDirectory;
-
 
 @end

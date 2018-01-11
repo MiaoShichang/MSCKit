@@ -9,6 +9,9 @@
 #import "NSObject+MSCKit.h"
 #import  <objc/runtime.h>
 
+
+const char * const associatedObjectKey;
+
 @implementation NSObject (MSCKit)
 
 //
@@ -29,10 +32,20 @@
     objc_setAssociatedObject(self, key, object, OBJC_ASSOCIATION_RETAIN);
 }
 
+- (void)ex_setAssociatedObject:(id)object
+{
+    objc_setAssociatedObject(self, &associatedObjectKey, object, OBJC_ASSOCIATION_RETAIN);
+}
+
 //
 - (id)ex_getAssociatedObjectForKey:(void *)key
 {
     return objc_getAssociatedObject(self, key);
+}
+
+- (id)ex_getAssociatedObject
+{
+    return objc_getAssociatedObject(self, &associatedObjectKey);
 }
 
 //
