@@ -10,7 +10,7 @@
 
 @interface NSUserDefaults (MSCKit)
 
-+ (BOOL)ex_setUserValue:(id)value forKey:(id)key;
++ (BOOL)ex_setUserValue:(id)value forKey:(NSString *)key;
 
 + (id)ex_valueForKey:(NSString *)key;
 

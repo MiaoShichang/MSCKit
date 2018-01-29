@@ -10,8 +10,12 @@
 
 @implementation NSUserDefaults (MSCKit)
 
-+ (BOOL)ex_setUserValue:(id)value forKey:(id)key
++ (BOOL)ex_setUserValue:(id)value forKey:(NSString *)key
 {
+    if (key.length == 0){
+        return NO;
+    }
+    
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     [userDefaults setValue:value forKey:key];
     return [userDefaults synchronize];
@@ -19,6 +23,10 @@
 
 + (id)ex_valueForKey:(NSString *)key
 {
+    if (key.length == 0){
+        return nil;
+    }
+    
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     return [userDefaults valueForKey:key];
 }

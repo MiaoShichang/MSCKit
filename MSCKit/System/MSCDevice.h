@@ -28,5 +28,7 @@
 // 手机运营商名称，例如：中国移动
 + (NSString *)carrierName;
 
+//
++ (BOOL)isIPhoneX;
 
 @end
