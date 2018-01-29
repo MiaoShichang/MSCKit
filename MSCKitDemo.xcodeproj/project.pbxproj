@@ -39,6 +39,8 @@
 		07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64471C75A76500696874 /* UIImage+MSCKit.m */; };
 		07FE644A1C75A9D100696874 /* image_v.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FE64491C75A9D100696874 /* image_v.png */; };
 		07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */; };
+		7A3667E6201EEE0A001D4208 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667E5201EEE0A001D4208 /* BaseModel.m */; };
+		7A3667EB201EEFB8001D4208 /* MSCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667EA201EEFB8001D4208 /* MSCTimer.m */; };
 		7A79403F1EEFB5F10051839B /* MSCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A79403E1EEFB5F10051839B /* MSCDevice.m */; };
 		7A7940431EEFB9FF0051839B /* MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7940421EEFB9FF0051839B /* MSCKit.m */; };
 		7AC20A5F2007150C00255A14 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC20A5E2007150C00255A14 /* BaseTableViewCell.m */; };
@@ -130,6 +132,10 @@
 		07FE644B1C75C3AD00696874 /* UIViewDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDrawRect.h; sourceTree = "<group>"; };
 		07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewDrawRect.m; sourceTree = "<group>"; };
 		3CD5F172C2606C68B385538C /* Pods-MSCKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSCKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSCKitDemo/Pods-MSCKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A3667E4201EEE0A001D4208 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		7A3667E5201EEE0A001D4208 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		7A3667E9201EEFB8001D4208 /* MSCTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCTimer.h; sourceTree = "<group>"; };
+		7A3667EA201EEFB8001D4208 /* MSCTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCTimer.m; sourceTree = "<group>"; };
 		7A79403D1EEFB5F10051839B /* MSCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCDevice.h; sourceTree = "<group>"; };
 		7A79403E1EEFB5F10051839B /* MSCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCDevice.m; sourceTree = "<group>"; };
 		7A7940411EEFB9FF0051839B /* MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCKit.h; sourceTree = "<group>"; };
@@ -320,6 +326,7 @@
 				7A7940421EEFB9FF0051839B /* MSCKit.m */,
 				7AC20A5C200714C000255A14 /* BaseClass */,
 				0754A9A61C7C1FBB006FCB08 /* System */,
+				7A3667E7201EEF5E001D4208 /* Package */,
 				07AF03BD1C621A5900CA1CDD /* Foundation+MSCKit */,
 				0726C7DD1C63454900968160 /* UIKit+MSCKit */,
 				07AF039F1C61B94400CA1CDD /* Core */,
@@ -336,6 +343,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7A3667E7201EEF5E001D4208 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				7A3667E8201EEF9F001D4208 /* MSCTimer */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		7A3667E8201EEF9F001D4208 /* MSCTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7A3667E9201EEFB8001D4208 /* MSCTimer.h */,
+				7A3667EA201EEFB8001D4208 /* MSCTimer.m */,
+			);
+			path = MSCTimer;
+			sourceTree = "<group>";
+		};
 		7AC20A5C200714C000255A14 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +367,8 @@
 				7AC20A5E2007150C00255A14 /* BaseTableViewCell.m */,
 				7AC20A602007164800255A14 /* BaseCollectionViewCell.h */,
 				7AC20A612007164800255A14 /* BaseCollectionViewCell.m */,
+				7A3667E4201EEE0A001D4208 /* BaseModel.h */,
+				7A3667E5201EEE0A001D4208 /* BaseModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -608,6 +634,7 @@
 				07DD15571BE1F6A4006158E6 /* AppDelegate.m in Sources */,
 				0754A9AC1C7C2771006FCB08 /* MSCSystem.m in Sources */,
 				07AF03D11C621ADE00CA1CDD /* NSDictionary+MSCKit.m in Sources */,
+				7A3667EB201EEFB8001D4208 /* MSCTimer.m in Sources */,
 				074F925E1C755EAE0017529B /* UIView+MSCKit.m in Sources */,
 				07AF03D31C621ADE00CA1CDD /* NSMutableDictionary+MSCKit.m in Sources */,
 				07AF03D21C621ADE00CA1CDD /* NSMutableArray+MSCKit.m in Sources */,
@@ -620,6 +647,7 @@
 				0754A9A91C7C1FD5006FCB08 /* MSCApp.m in Sources */,
 				079A955F1C7CA45600E6B272 /* NSFileManager+MSCKit.m in Sources */,
 				7AC20A5F2007150C00255A14 /* BaseTableViewCell.m in Sources */,
+				7A3667E6201EEE0A001D4208 /* BaseModel.m in Sources */,
 				0726C7DC1C62EEAC00968160 /* MSCCoreUtils+NSString.m in Sources */,
 				0754A9A51C7C155D006FCB08 /* UIImageView+MSCKit.m in Sources */,
 				07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */,

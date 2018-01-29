@@ -11,7 +11,10 @@ target 'MSCKitDemo' do
   pod 'JSONModel'
   pod 'AFNetworking'
   pod 'SDWebImage'
+  
 #  pod 'WeexSDK', '0.16.2'
+    #
+#  pod 'MJRefresh'
     
     
   target 'MSCKitDemoTests' do
