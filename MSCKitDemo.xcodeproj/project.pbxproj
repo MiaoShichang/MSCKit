@@ -41,6 +41,7 @@
 		07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */; };
 		7A3667E6201EEE0A001D4208 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667E5201EEE0A001D4208 /* BaseModel.m */; };
 		7A3667EB201EEFB8001D4208 /* MSCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667EA201EEFB8001D4208 /* MSCTimer.m */; };
+		7A3667EF201EF578001D4208 /* MSCNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667EE201EF578001D4208 /* MSCNetworkMonitor.m */; };
 		7A79403F1EEFB5F10051839B /* MSCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A79403E1EEFB5F10051839B /* MSCDevice.m */; };
 		7A7940431EEFB9FF0051839B /* MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7940421EEFB9FF0051839B /* MSCKit.m */; };
 		7AC20A5F2007150C00255A14 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC20A5E2007150C00255A14 /* BaseTableViewCell.m */; };
@@ -136,6 +137,8 @@
 		7A3667E5201EEE0A001D4208 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		7A3667E9201EEFB8001D4208 /* MSCTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCTimer.h; sourceTree = "<group>"; };
 		7A3667EA201EEFB8001D4208 /* MSCTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCTimer.m; sourceTree = "<group>"; };
+		7A3667ED201EF578001D4208 /* MSCNetworkMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCNetworkMonitor.h; sourceTree = "<group>"; };
+		7A3667EE201EF578001D4208 /* MSCNetworkMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCNetworkMonitor.m; sourceTree = "<group>"; };
 		7A79403D1EEFB5F10051839B /* MSCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCDevice.h; sourceTree = "<group>"; };
 		7A79403E1EEFB5F10051839B /* MSCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCDevice.m; sourceTree = "<group>"; };
 		7A7940411EEFB9FF0051839B /* MSCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCKit.h; sourceTree = "<group>"; };
@@ -346,6 +349,7 @@
 		7A3667E7201EEF5E001D4208 /* Package */ = {
 			isa = PBXGroup;
 			children = (
+				7A3667EC201EF555001D4208 /* MSCNetworkMonitor */,
 				7A3667E8201EEF9F001D4208 /* MSCTimer */,
 			);
 			path = Package;
@@ -358,6 +362,15 @@
 				7A3667EA201EEFB8001D4208 /* MSCTimer.m */,
 			);
 			path = MSCTimer;
+			sourceTree = "<group>";
+		};
+		7A3667EC201EF555001D4208 /* MSCNetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				7A3667ED201EF578001D4208 /* MSCNetworkMonitor.h */,
+				7A3667EE201EF578001D4208 /* MSCNetworkMonitor.m */,
+			);
+			path = MSCNetworkMonitor;
 			sourceTree = "<group>";
 		};
 		7AC20A5C200714C000255A14 /* BaseClass */ = {
@@ -625,6 +638,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3667EF201EF578001D4208 /* MSCNetworkMonitor.m in Sources */,
 				0754A9A21C7BF716006FCB08 /* UIButton+MSCKit.m in Sources */,
 				07AF03CF1C621ADE00CA1CDD /* NSData+MSCKit.m in Sources */,
 				0754A9AF1C7C6BCE006FCB08 /* NSObject+MSCKit.m in Sources */,
