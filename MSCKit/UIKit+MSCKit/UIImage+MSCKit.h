@@ -15,4 +15,9 @@
 
 + (UIImage *)ex_imageWithColor:(UIColor *)color;
 
++ (UIImage*)ex_imageFromView:(UIView *)view;
+
+// 屏幕截屏
++ (UIImage *)ex_imageByScreenshot;
+
 @end

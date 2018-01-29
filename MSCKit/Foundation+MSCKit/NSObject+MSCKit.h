@@ -27,7 +27,6 @@
 
 /**
  * @brief  关联一个stong对象
- *
  * @param value 被关联的对象
  * @param key   被关联对象的key
  */
@@ -35,7 +34,6 @@
 
 /**
  * @brief  根据关联对象的key取出关联对象
- *
  * @param key 关联对象的key
  * @return 关联对象
  */
@@ -43,7 +41,6 @@
 
 /**
  * @brief  根据关联对象的key移除关联对象
- *
  * @param key 关联对象的key
  */
 - (void)ex_removeAssociatedObjectForKey:(void *)key;
@@ -52,18 +49,14 @@
 /////////////////////////
 /**
  * @brief  关联一个stong对象
- *
  * @param value 被关联的对象
- *
  * @note key值是默认值，每个对象只用唯一的一个key值。
  */
 - (void)ex_setAssociatedObject:(id)object;
 
 /**
  * @brief  根据关联对象的key取出关联对象
- *
  * @param key 关联对象的key
- *
  * @note key值是默认值，每个对象只用唯一的一个key值。
  */
 - (id)ex_getAssociatedObject;
