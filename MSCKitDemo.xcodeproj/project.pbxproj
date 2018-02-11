@@ -39,6 +39,12 @@
 		07FE64481C75A76500696874 /* UIImage+MSCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE64471C75A76500696874 /* UIImage+MSCKit.m */; };
 		07FE644A1C75A9D100696874 /* image_v.png in Resources */ = {isa = PBXBuildFile; fileRef = 07FE64491C75A9D100696874 /* image_v.png */; };
 		07FE644D1C75C3AD00696874 /* UIViewDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */; };
+		7A15F251203023BB004CC8B4 /* UIJsBridgeWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15F246203023BA004CC8B4 /* UIJsBridgeWebView.m */; };
+		7A15F257203023BB004CC8B4 /* WKJsBridgeWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15F250203023BB004CC8B4 /* WKJsBridgeWebView.m */; };
+		7A15F261203023F5004CC8B4 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15F25A203023F5004CC8B4 /* WebViewJavascriptBridge.m */; };
+		7A15F262203023F5004CC8B4 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15F25C203023F5004CC8B4 /* WebViewJavascriptBridge_JS.m */; };
+		7A15F263203023F5004CC8B4 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15F25E203023F5004CC8B4 /* WebViewJavascriptBridgeBase.m */; };
+		7A15F264203023F5004CC8B4 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A15F260203023F5004CC8B4 /* WKWebViewJavascriptBridge.m */; };
 		7A3667E6201EEE0A001D4208 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667E5201EEE0A001D4208 /* BaseModel.m */; };
 		7A3667EB201EEFB8001D4208 /* MSCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667EA201EEFB8001D4208 /* MSCTimer.m */; };
 		7A3667EF201EF578001D4208 /* MSCNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3667EE201EF578001D4208 /* MSCNetworkMonitor.m */; };
@@ -136,6 +142,18 @@
 		07FE644B1C75C3AD00696874 /* UIViewDrawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewDrawRect.h; sourceTree = "<group>"; };
 		07FE644C1C75C3AD00696874 /* UIViewDrawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewDrawRect.m; sourceTree = "<group>"; };
 		3CD5F172C2606C68B385538C /* Pods-MSCKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSCKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSCKitDemo/Pods-MSCKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A15F243203023BA004CC8B4 /* UIJsBridgeWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIJsBridgeWebView.h; sourceTree = "<group>"; };
+		7A15F246203023BA004CC8B4 /* UIJsBridgeWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIJsBridgeWebView.m; sourceTree = "<group>"; };
+		7A15F24E203023BA004CC8B4 /* WKJsBridgeWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJsBridgeWebView.h; sourceTree = "<group>"; };
+		7A15F250203023BB004CC8B4 /* WKJsBridgeWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJsBridgeWebView.m; sourceTree = "<group>"; };
+		7A15F259203023F5004CC8B4 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		7A15F25A203023F5004CC8B4 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		7A15F25B203023F5004CC8B4 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		7A15F25C203023F5004CC8B4 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		7A15F25D203023F5004CC8B4 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		7A15F25E203023F5004CC8B4 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		7A15F25F203023F5004CC8B4 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		7A15F260203023F5004CC8B4 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		7A3667E4201EEE0A001D4208 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		7A3667E5201EEE0A001D4208 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		7A3667E9201EEFB8001D4208 /* MSCTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCTimer.h; sourceTree = "<group>"; };
@@ -338,6 +356,7 @@
 		07DD15851BE1F6BD006158E6 /* MSCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7A15F2422030239A004CC8B4 /* BridgeWebView */,
 				7A7940411EEFB9FF0051839B /* MSCKit.h */,
 				7A7940421EEFB9FF0051839B /* MSCKit.m */,
 				7AC20A5C200714C000255A14 /* BaseClass */,
@@ -357,6 +376,33 @@
 				E37708E17A10D4764EECB06B /* libPods-MSCKitDemoTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A15F2422030239A004CC8B4 /* BridgeWebView */ = {
+			isa = PBXGroup;
+			children = (
+				7A15F258203023F5004CC8B4 /* WebViewJavascriptBridge */,
+				7A15F243203023BA004CC8B4 /* UIJsBridgeWebView.h */,
+				7A15F246203023BA004CC8B4 /* UIJsBridgeWebView.m */,
+				7A15F24E203023BA004CC8B4 /* WKJsBridgeWebView.h */,
+				7A15F250203023BB004CC8B4 /* WKJsBridgeWebView.m */,
+			);
+			path = BridgeWebView;
+			sourceTree = "<group>";
+		};
+		7A15F258203023F5004CC8B4 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				7A15F259203023F5004CC8B4 /* WebViewJavascriptBridge.h */,
+				7A15F25A203023F5004CC8B4 /* WebViewJavascriptBridge.m */,
+				7A15F25B203023F5004CC8B4 /* WebViewJavascriptBridge_JS.h */,
+				7A15F25C203023F5004CC8B4 /* WebViewJavascriptBridge_JS.m */,
+				7A15F25D203023F5004CC8B4 /* WebViewJavascriptBridgeBase.h */,
+				7A15F25E203023F5004CC8B4 /* WebViewJavascriptBridgeBase.m */,
+				7A15F25F203023F5004CC8B4 /* WKWebViewJavascriptBridge.h */,
+				7A15F260203023F5004CC8B4 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 		7A3667E7201EEF5E001D4208 /* Package */ = {
@@ -672,6 +718,8 @@
 				7A3667F6201EFFDE001D4208 /* UIAlertView+MSCBlock.m in Sources */,
 				0754A9AC1C7C2771006FCB08 /* MSCSystem.m in Sources */,
 				07AF03D11C621ADE00CA1CDD /* NSDictionary+MSCKit.m in Sources */,
+				7A15F263203023F5004CC8B4 /* WebViewJavascriptBridgeBase.m in Sources */,
+				7A15F257203023BB004CC8B4 /* WKJsBridgeWebView.m in Sources */,
 				7A3667EB201EEFB8001D4208 /* MSCTimer.m in Sources */,
 				074F925E1C755EAE0017529B /* UIView+MSCKit.m in Sources */,
 				07AF03D31C621ADE00CA1CDD /* NSMutableDictionary+MSCKit.m in Sources */,
@@ -682,8 +730,11 @@
 				07AF03D51C621ADE00CA1CDD /* NSString+MSCKit.m in Sources */,
 				7A3667F3201EF8CE001D4208 /* MSCDataCache.m in Sources */,
 				07FE64451C759D5C00696874 /* UIFont+MSCKit.m in Sources */,
+				7A15F261203023F5004CC8B4 /* WebViewJavascriptBridge.m in Sources */,
 				07DD15541BE1F6A4006158E6 /* main.m in Sources */,
+				7A15F262203023F5004CC8B4 /* WebViewJavascriptBridge_JS.m in Sources */,
 				7A3667F9201F022D001D4208 /* UITableView+Custom.m in Sources */,
+				7A15F251203023BB004CC8B4 /* UIJsBridgeWebView.m in Sources */,
 				0754A9A91C7C1FD5006FCB08 /* MSCApp.m in Sources */,
 				079A955F1C7CA45600E6B272 /* NSFileManager+MSCKit.m in Sources */,
 				7AC20A5F2007150C00255A14 /* BaseTableViewCell.m in Sources */,
@@ -697,6 +748,7 @@
 				07AF03CE1C621ADE00CA1CDD /* NSArray+MSCKit.m in Sources */,
 				07FE64421C75724100696874 /* UIColor+MSCKit.m in Sources */,
 				07AF03D01C621ADE00CA1CDD /* NSDate+MSCKit.m in Sources */,
+				7A15F264203023F5004CC8B4 /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
